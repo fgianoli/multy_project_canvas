@@ -1,114 +1,82 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
 [general]
 name=Multi Project Canvas
 qgisMinimumVersion=3.16
-description=Manage multiple QGIS projects with thumbnails, bookmarks, navigation history and global search. Supports English and Italian.
-description[it]=Gestisci progetti QGIS multipli con anteprime, segnalibri, storico navigazione e ricerca globale. Supporta inglese e italiano.
+description=Manage multiple QGIS projects simultaneously with thumbnails, bookmarks, navigation history and global search
 version=7.0.0
 author=Federico Gianoli
 email=gianoli.federico@gmail.com
 
-about=Advanced management of multiple QGIS projects.
-    
-    FEATURES:
-    
-    📷 MAP THUMBNAILS
-    • Live thumbnail for each project
-    • Auto-updates on changes
-    • Toggle to show/hide
-    
-    🔖 BOOKMARKS
-    • Save positions per project
-    • Double-click to navigate
-    • Persisted in workspace
-    
-    ⏪ NAVIGATION HISTORY
-    • Back/Forward for extents
-    • Up to 50 positions stored
-    • Per project separately
-    
-    🔄 SYNCHRONIZATION
-    • Apply current extent to all projects
-    • One click to align views
-    
-    🔍 GLOBAL SEARCH
-    • Search layers across all projects
-    • Search in bookmarks
-    • Click to switch and select
-    
-    📝 REORDER & RENAME
-    • Drag & drop to reorder
-    • Double-click to rename
-    • Context menu with Move up/down
-    
-    🌍 MULTILINGUAL
-    • English (default)
-    • Italian (automatic if QGIS is in Italian)
-    
-    SHORTCUTS:
-    • Ctrl+Shift+P: Toggle panel
-    • Ctrl+T: New project
-    • Ctrl+Shift+O: Open project
+about=Multi Project Canvas allows you to work with multiple QGIS projects at the same time without opening separate QGIS instances. Each project is fully isolated with its own layers, extent, CRS, and bookmarks. Switch between projects with a single click while keeping all your work organized in one place.
 
-about[it]=Gestione avanzata di progetti QGIS multipli.
-    
-    FUNZIONALITÀ:
-    
-    📷 ANTEPRIME MAPPA
-    • Miniatura live per ogni progetto
-    • Aggiornamento automatico
-    • Toggle per mostrare/nascondere
-    
-    🔖 SEGNALIBRI
-    • Salva posizioni per progetto
-    • Doppio click per navigare
-    • Persistenti nel workspace
-    
-    ⏪ STORICO NAVIGAZIONE
-    • Indietro/Avanti per estensioni
-    • Fino a 50 posizioni memorizzate
-    • Per ogni progetto separatamente
-    
-    🔄 SINCRONIZZAZIONE
-    • Applica estensione corrente a tutti
-    • Un click per allineare le viste
-    
-    🔍 RICERCA GLOBALE
-    • Cerca layer in tutti i progetti
-    • Cerca nei segnalibri
-    • Click per switchare e selezionare
-    
-    📝 RIORDINO E RINOMINA
-    • Drag & drop per riordinare
-    • Doppio click per rinominare
-    • Menu contestuale con Sposta su/giù
-    
-    🌍 MULTILINGUA
-    • Inglese (default)
-    • Italiano (automatico se QGIS è in italiano)
+    Key Features:
+    - Multiple project management in a single QGIS session
+    - Live map thumbnails for visual project identification
+    - Per-project bookmarks with collapsible panel
+    - Navigation history (back/forward) for map extents
+    - Extent synchronization across all projects
+    - Global search for layers and bookmarks
+    - Drag & drop project reordering
+    - Workspace save/load to preserve sessions
+    - Full i18n support (English, Italian)
 
-tracker=https://github.com/yourusername/multi_project_canvas/issues
-repository=https://github.com/yourusername/multi_project_canvas
+    Shortcuts:
+    - Ctrl+Shift+P: Toggle panel
+    - Ctrl+T: New project
+    - Ctrl+Shift+O: Open project
+
+tracker=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy/issues
+repository=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy
+# End of mandatory metadata
+
+# Recommended items:
 
 hasProcessingProvider=no
-
+# Uncomment the following line and add your changelog:
 changelog=
-    7.0.0 - Internationalization
-        - Full English/Italian support
+    7.0.0 - Internationalization & UI improvements
+        - Full English/Italian language support
         - Automatic language detection from QGIS settings
-        - All UI elements translated
+        - Collapsible and resizable bookmark section
+        - Improved splitter for panel resizing
+        - Comprehensive README documentation
     6.0.0 - Feature release
-        - Map thumbnails
-        - Bookmarks per project
-        - Navigation history back/forward
-        - Extent synchronization
-        - Global layer/bookmark search
-        - Drag & drop reordering
-        - Rename with double-click
+        - Map thumbnails for visual project identification
+        - Per-project bookmarks
+        - Navigation history (back/forward)
+        - Extent synchronization across projects
+        - Global search for layers and bookmarks
+        - Drag & drop project reordering
+        - Double-click to rename projects
+    5.0.0 - Initial public release
+        - DockWidget interface
+        - Multiple project management
+        - Project save/load functionality
+        - Workspace save/load
 
-tags=canvas,multi,project,bookmarks,thumbnails,navigation,search,i18n
+# Tags are comma separated with spaces allowed
+tags=sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy
 
+homepage=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy
 category=Plugins
 icon=icon.png
-
+# experimental flag
 experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
 deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+# Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
