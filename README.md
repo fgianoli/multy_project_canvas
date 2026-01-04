@@ -281,30 +281,10 @@ This plugin is released under the GNU General Public License v3.0.
 
 ## Changelog
 
-### Version 7.0.0
-- Full internationalization support (English/Italian)
-- Automatic language detection from QGIS settings
-- Collapsible and resizable bookmark section
-- Improved splitter for panel resizing
-
-### Version 6.0.0
-- Map thumbnails for visual project identification
-- Per-project bookmarks
-- Navigation history (back/forward)
-- Extent synchronization across projects
-- Global search for layers and bookmarks
-- Drag & drop project reordering
-- Double-click to rename
-
-### Version 5.0.0
-- Initial release with DockWidget interface
-- Multiple project management
-- Project save/load functionality
-- Workspace save/load
 
 ## Credits
 
-Developed by Federico
+Developed by Federico Gianoli
 
 ## Support
 
