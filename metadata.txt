@@ -6,7 +6,7 @@
 name=Multi Project Canvas
 qgisMinimumVersion=3.16
 description=Manage multiple QGIS projects simultaneously with thumbnails, bookmarks, navigation history and global search
-version=7.0.0
+version=1.0
 author=Federico Gianoli
 email=gianoli.federico@gmail.com
 
@@ -28,8 +28,8 @@ about=Multi Project Canvas allows you to work with multiple QGIS projects at the
     - Ctrl+T: New project
     - Ctrl+Shift+O: Open project
 
-tracker=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy/issues
-repository=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy
+tracker=https://github.com/fgianoli/multy_project_canvas/issues
+repository=https://github.com/fgianoli/multy_project_canvas/
 # End of mandatory metadata
 
 # Recommended items:
@@ -37,13 +37,12 @@ repository=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy
 hasProcessingProvider=no
 # Uncomment the following line and add your changelog:
 changelog=
-    7.0.0 - Internationalization & UI improvements
+    1.0.0 - Internationalization & UI improvements
         - Full English/Italian language support
         - Automatic language detection from QGIS settings
         - Collapsible and resizable bookmark section
         - Improved splitter for panel resizing
         - Comprehensive README documentation
-    6.0.0 - Feature release
         - Map thumbnails for visual project identification
         - Per-project bookmarks
         - Navigation history (back/forward)
@@ -51,7 +50,6 @@ changelog=
         - Global search for layers and bookmarks
         - Drag & drop project reordering
         - Double-click to rename projects
-    5.0.0 - Initial public release
         - DockWidget interface
         - Multiple project management
         - Project save/load functionality
@@ -60,7 +58,7 @@ changelog=
 # Tags are comma separated with spaces allowed
 tags=sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy sketchy
 
-homepage=https://github.com/fgianoli/sketchy-sketchy-sketchy-sketchy
+homepage=https://github.com/fgianoli/multy_project_canvas/
 category=Plugins
 icon=icon.png
 # experimental flag
