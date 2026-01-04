@@ -1,0 +1,114 @@
+[general]
+name=Multi Project Canvas
+qgisMinimumVersion=3.16
+description=Manage multiple QGIS projects with thumbnails, bookmarks, navigation history and global search. Supports English and Italian.
+description[it]=Gestisci progetti QGIS multipli con anteprime, segnalibri, storico navigazione e ricerca globale. Supporta inglese e italiano.
+version=7.0.0
+author=Federico Gianoli
+email=gianoli.federico@gmail.com
+
+about=Advanced management of multiple QGIS projects.
+    
+    FEATURES:
+    
+    📷 MAP THUMBNAILS
+    • Live thumbnail for each project
+    • Auto-updates on changes
+    • Toggle to show/hide
+    
+    🔖 BOOKMARKS
+    • Save positions per project
+    • Double-click to navigate
+    • Persisted in workspace
+    
+    ⏪ NAVIGATION HISTORY
+    • Back/Forward for extents
+    • Up to 50 positions stored
+    • Per project separately
+    
+    🔄 SYNCHRONIZATION
+    • Apply current extent to all projects
+    • One click to align views
+    
+    🔍 GLOBAL SEARCH
+    • Search layers across all projects
+    • Search in bookmarks
+    • Click to switch and select
+    
+    📝 REORDER & RENAME
+    • Drag & drop to reorder
+    • Double-click to rename
+    • Context menu with Move up/down
+    
+    🌍 MULTILINGUAL
+    • English (default)
+    • Italian (automatic if QGIS is in Italian)
+    
+    SHORTCUTS:
+    • Ctrl+Shift+P: Toggle panel
+    • Ctrl+T: New project
+    • Ctrl+Shift+O: Open project
+
+about[it]=Gestione avanzata di progetti QGIS multipli.
+    
+    FUNZIONALITÀ:
+    
+    📷 ANTEPRIME MAPPA
+    • Miniatura live per ogni progetto
+    • Aggiornamento automatico
+    • Toggle per mostrare/nascondere
+    
+    🔖 SEGNALIBRI
+    • Salva posizioni per progetto
+    • Doppio click per navigare
+    • Persistenti nel workspace
+    
+    ⏪ STORICO NAVIGAZIONE
+    • Indietro/Avanti per estensioni
+    • Fino a 50 posizioni memorizzate
+    • Per ogni progetto separatamente
+    
+    🔄 SINCRONIZZAZIONE
+    • Applica estensione corrente a tutti
+    • Un click per allineare le viste
+    
+    🔍 RICERCA GLOBALE
+    • Cerca layer in tutti i progetti
+    • Cerca nei segnalibri
+    • Click per switchare e selezionare
+    
+    📝 RIORDINO E RINOMINA
+    • Drag & drop per riordinare
+    • Doppio click per rinominare
+    • Menu contestuale con Sposta su/giù
+    
+    🌍 MULTILINGUA
+    • Inglese (default)
+    • Italiano (automatico se QGIS è in italiano)
+
+tracker=https://github.com/yourusername/multi_project_canvas/issues
+repository=https://github.com/yourusername/multi_project_canvas
+
+hasProcessingProvider=no
+
+changelog=
+    7.0.0 - Internationalization
+        - Full English/Italian support
+        - Automatic language detection from QGIS settings
+        - All UI elements translated
+    6.0.0 - Feature release
+        - Map thumbnails
+        - Bookmarks per project
+        - Navigation history back/forward
+        - Extent synchronization
+        - Global layer/bookmark search
+        - Drag & drop reordering
+        - Rename with double-click
+
+tags=canvas,multi,project,bookmarks,thumbnails,navigation,search,i18n
+
+category=Plugins
+icon=icon.png
+
+experimental=False
+deprecated=False
